@@ -55,4 +55,4 @@ This package is intended for internal use within the British Heart Foundation Da
 
 ---
 
-*Maintained by the BHF Data Science Environment Team.*
+*Maintained by the BHF Data Science Team.*
