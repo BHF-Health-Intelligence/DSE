@@ -41,6 +41,7 @@ return(SparkR::tableToDF(parse_tablename(tablename)))
 #' 
 #' @param df The dataframe to save, of SparkR dataframe or R dataframe format
 #' @param tablename The table name in schema.table or catalog.schema.table format 
+#' @param mode The save mode. Options include "error" (default, which raises an error if the table already exists), "append" (which appends the data to the existing table), "overwrite" (which overwrites the existing table), and "ignore" (which does nothing if the table already exists).
 #' @examples 
 #' table <- read_data("myschema.mytable")
 #' @export
